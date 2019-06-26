@@ -21,11 +21,11 @@
   }
   
   .bg-red {
-    background: var(--red);
+    background: var(--green);
   }
   
   .text-red {
-    color: var(--red);
+    color: var(--green);
   }
   
   .container-fluid-max {
@@ -43,7 +43,7 @@
   /* SCROLL ANIMATIONS
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .scroll .page-header {
-    background: var(--red);
+    background: var(--green);
   }
   
   .scroll .hero {
@@ -125,7 +125,7 @@
   /* MEDIUM SCREENS */
   @media screen and (max-width: 991px) {
     .page-header {
-      background: var(--red);
+      background: var(--green);
     }
   }
   
