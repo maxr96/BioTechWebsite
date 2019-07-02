@@ -52,6 +52,10 @@
   .text-green {
     color: var(--green);
   }
+
+  .text-red {
+    color: var(--red);
+  }
   
   .container-fluid-max {
     max-width: 1440px;
