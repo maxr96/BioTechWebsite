@@ -5,19 +5,21 @@
 :root {
     --lightgreen: #dee7dc;
     --lightpink: #ffd6f3;
-    --red: #d64041;
+    --pink: #ee82cd;
+    --red:  #d64041;
   }
   
   a,
   a:hover {
     color: inherit;
   }
-  h3 {
-    color: var(--green);
-  }
   
   a:hover {
     text-decoration: none;
+  }
+ 
+  h3 {
+    font-weight: bold;
   }
   
   .bg-lightgreen {
@@ -31,8 +33,23 @@
   .bg-red {
     background: var(--green);
   }
+
+  .text-header {
+    text-align: center;
+    border: 5px solid var(--pink);
+    border-radius: 5px;
+    background: var(--lightpink);
+    font-size: 60pt;
+  }
   
-  .text-red {
+  .text-bold {
+    font-weight: bold;
+  }
+  .text-pink {
+    color: var(--pink);
+  }
+
+  .text-green {
     color: var(--green);
   }
   
