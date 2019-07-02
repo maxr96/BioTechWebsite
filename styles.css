@@ -3,7 +3,8 @@
 /* RESET RULES & HELPER CLASSES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
-    --lightblue: #f6f9fc;
+    --lightgreen: #dee7dc;
+    --lightpink: #ffd6f3;
     --red: #d64041;
   }
   
@@ -19,8 +20,12 @@
     text-decoration: none;
   }
   
-  .bg-lightblue {
-    background: var(--lightblue);
+  .bg-lightgreen {
+    background: var(--lightgreen);
+  }
+
+  .bg-lightpink {
+    background: var(--lightpink);
   }
   
   .bg-red {
