@@ -5,8 +5,11 @@
 :root {
     --lightgreen: #dee7dc;
     --lightpink: #ffd6f3;
-    --pink: #ee82cd;
+    --uti: #aa3e98;
+    --uti-background: #c19ab7;
     --red:  #d64041;
+    --main: #1f958c;
+    --main-background:#65b7b1;
   }
   
   a,
@@ -23,7 +26,7 @@
   }
   
   .bg-lightgreen {
-    background: var(--lightgreen);
+    background: var(--main-background);
   }
 
   .bg-lightpink {
@@ -34,11 +37,18 @@
     background: var(--green);
   }
 
+  .text-header-uti {
+    text-align: center;
+    border: 5px solid var(--uti);
+    border-radius: 5px;
+    background: var(--uti-background);
+    font-size: 60pt;
+  }
   .text-header {
     text-align: center;
-    border: 5px solid var(--pink);
+    border: 5px solid var(--main);
     border-radius: 5px;
-    background: var(--lightpink);
+    background: var(--main-background);
     font-size: 60pt;
   }
   
@@ -46,11 +56,11 @@
     font-weight: bold;
   }
   .text-pink {
-    color: var(--pink);
+    color: var(--uti);
   }
 
   .text-green {
-    color: var(--green);
+    color: var(--main);
   }
 
   .text-red {
@@ -67,6 +77,16 @@
   
   .p-15 {
     padding: 15px;
+  }
+
+  .border-uti {
+    border: 3px solid var(--uti);
+    border-radius: 5px;
+  }
+
+  .border-main {
+    border: 3px solid var(--main);
+    border-radius: 5px;
   }
   
   /* SCROLL ANIMATIONS
@@ -154,7 +174,7 @@
   /* MEDIUM SCREENS */
   @media screen and (max-width: 991px) {
     .page-header {
-      background: var(--green);
+      background: var(--main);
     }
   }
   
